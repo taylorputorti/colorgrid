@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 2px solid lightgrey;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+.jumbotron {
+  background-image: url('https://images.gutefrage.net/media/fragen/bilder/minecraft-pixel-art-programm-/0_big.jpg?v=1459166346000');
+  background-size: 10%;
+  opacity: .6;
+}
+
+#title {
+  color: black;
+  text-shadow: 2px 2px white;
+  font-size: 8em;
+}
